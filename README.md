@@ -11,7 +11,7 @@ Applying a threshold to reject unknown speakers based on probe samples.
 ```js
 /Speaker-Recognition
 │
-├── wav-files/                 # Folder containing training, testing, and probe audio files
+├── wav-files/                 # Folder containing training, testing, and probe audio files (Note: All audio files need to be saved as .wav files in order for them to run)
 │   ├── train/                 # Training data (audio files)
 │   ├── test/                  # Testing data (audio files)
 │   └── probe/                 # Probe data (unknown speaker samples)
