@@ -8,6 +8,7 @@ Using log-likelihood scoring to classify new voice samples.
 Applying a threshold to reject unknown speakers based on probe samples.
 
 ## Project Structure
+```js
 /Speaker-Recognition
 │
 ├── wav-files/                 # Folder containing training, testing, and probe audio files
@@ -17,7 +18,7 @@ Applying a threshold to reject unknown speakers based on probe samples.
 │
 ├── speaker_recognition.ipynb  # Main script implementing the system
 └── README.md                  # Project documentation (this file)
-
+```
 ## How to Run This Notebook
 1. Clone the Repository
 2. Set Up Your Environment: pip install numpy scipy matplotlib scikit-learn python_speech_features
